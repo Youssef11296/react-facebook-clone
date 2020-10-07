@@ -1,0 +1,80 @@
+.post__sender {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__senderTop,
+.post__senderBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #f1f2f3;
+    box-shadow: 0 5px 10px -7px rgba(0, 0, 0, .4);
+}
+
+.post__senderTop {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: center;
+}
+
+.post__senderTop form {
+    flex: 1;
+    display: flex;
+}
+
+.post__senedrAvatar {
+    cursor: pointer;
+}
+
+.post__senderTop form button {
+    margin-left: 1rem;
+    background-color: var(--main) !important;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: none;
+    /* Un Avaliable For The Computer Screens */
+}
+
+@media screen and (max-width: 1200px) {
+    .post__senderTop form button {
+        display: inline-block;
+        /* Avaliable For The Mobile Screens */
+    }
+}
+
+.post__sender .post__senderTop input {
+    font-size: 1.2rem;
+    margin: 0 2rem;
+}
+
+.post__sender .post__senderTop input:nth-child(2) {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+.post__sender .post__senderTop input {
+    border: none;
+    outline: none;
+}
+
+.post__senderOption {
+    display: flex;
+    cursor: pointer;
+}
+
+.post__senderOption h4 {
+    color: #bbb;
+    margin-left: .4rem;
+    transition: color .2s;
+}
+
+.post__senderOption h4:hover {
+    color: #0008;
+}

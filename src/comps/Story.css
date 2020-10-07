@@ -1,0 +1,46 @@
+.story__list {
+    flex: 1;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story {
+    width: 140px;
+    position: relative;
+    height: 220px;
+    margin: 0 .6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: overlay;
+    transition: transform 100ms ease-in;
+    box-shadow: 0 5px 17px -7px rgba(0, 0, 0, 0.8);
+}
+
+.story:hover {
+    transform: scale(1.04);
+}
+
+.story__avatar {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid var(--main);
+}
+
+.story__title {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    color: #fff;
+    margin-left: .6rem;
+}

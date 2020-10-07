@@ -1,0 +1,36 @@
+.sidebar {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    padding: 10px;
+}
+
+.sidebar>* {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.sidebar h4 {
+    margin-left: 10px;
+}
+
+.sidebar__row img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid var(--main);
+}
+
+.sidebar__row .MuiSvgIcon-root {
+    color: var(--main)
+}
+
+.sidebar__row {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar__row:hover {
+    background-color: var(--secondary);
+}

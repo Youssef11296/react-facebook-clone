@@ -1,0 +1,62 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 17px 10px -7px rgba(0, 0, 0, 0);
+}
+
+.header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__option {
+    padding: 0 20px;
+}
+
+.header__left .MuiSvgIcon-root {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header__left input {
+    border: none;
+    outline: none;
+}
+
+.header .MuiSvgIcon-root {
+    color: gray;
+    transition: 0.3s;
+}
+
+.header .MuiSvgIcon-root:hover {
+    color: var(--main);
+}
+
+.header__option--active .MuiSvgIcon-root {
+    color: var(--main);
+    border-bottom: 4px solid var(--main);
+}
+
+.header__left img {
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+.header__right .header__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__right .header__info h4 {
+    font-size: medium;
+    cursor: pointer;
+}
