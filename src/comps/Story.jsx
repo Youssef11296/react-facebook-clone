@@ -7,7 +7,7 @@ const Story = ({ profilePic, title, bg }) => {
     <div className="story" style={{ background: `rgba(0,0,0,.3) url(${bg})` }}>
       <div className="story__content">
         <Avatar className="story__avatar" src={profilePic} />
-        <h4 class="story__title">{title}</h4>
+        <h4 className="story__title">{title}</h4>
       </div>
     </div>
   );

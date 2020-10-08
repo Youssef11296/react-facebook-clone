@@ -76,5 +76,9 @@
 }
 
 .post__senderOption h4:hover {
-    color: #0008;
+    color: #0009;
+}
+
+.post__senderOption .MuiSvgIcon-root:hover~h4 {
+    color: #0009;
 }

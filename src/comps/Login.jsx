@@ -17,7 +17,6 @@ const Login = () => {
           type: actionTypes.SET_USER,
           user: res.user,
         });
-        console.log(res);
       })
       .catch((err) => prompt(err.message));
   };

@@ -21,7 +21,7 @@ const Header = () => {
     <div className="header">
       <div className="header__left">
         <img src={user.photoURL} />
-        <SearchIcon />
+        <SearchIcon className="header__search" />
         <input type="text" placeholder="Search for a user" />
       </div>
       <div className="header__middle">

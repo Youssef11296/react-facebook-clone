@@ -11,7 +11,7 @@
 }
 
 .app__body {
-    padding: 0 2rem;
+    padding: 0 2rem 1rem;
     display: flex;
     background-color: #f1f2f5;
     min-height: 80vh;

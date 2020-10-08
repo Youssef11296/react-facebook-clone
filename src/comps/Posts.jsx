@@ -22,16 +22,14 @@ const Posts = () => {
   return (
     <div className="posts__container">
       {posts.map((post) => (
-        <div className="posts">
-          <Post
-            key={post.id}
-            username={post.data.username}
-            text={post.data.text}
-            timestamp={post.data.timestamp}
-            profilePic={post.data.profilePic}
-            image={post.data.image}
-          />
-        </div>
+        <Post
+          key={post.id}
+          username={post.data.username}
+          text={post.data.text}
+          timestamp={post.data.timestamp}
+          profilePic={post.data.profilePic}
+          image={post.data.image}
+        />
       ))}
     </div>
   );

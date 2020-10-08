@@ -18,6 +18,11 @@
     align-items: center;
 }
 
+.header__left img,
+.header__search {
+    cursor: pointer;
+}
+
 .header__option {
     padding: 0 20px;
 }
@@ -30,6 +35,8 @@
 .header__left input {
     border: none;
     outline: none;
+    margin-left: .4rem;
+    font-size: 1rem;
 }
 
 .header .MuiSvgIcon-root {

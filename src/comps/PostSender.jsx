@@ -41,7 +41,7 @@ const PostSender = () => {
           />
           <input
             type="text"
-            placeholder="Drag an image [Optional]"
+            placeholder="Drag an image url [Optional]"
             value={image}
             onChange={(e) => setImage(e.target.value)}
           />

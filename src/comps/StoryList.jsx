@@ -9,22 +9,22 @@ const StoryContainer = () => {
   return (
     <div className="story__list">
       <Story
-        profilePic={`https://avatars.dicebear.com/api/human/${seed}.svg`}
+        profilePic={`https://avatars.dicebear.com/api/male/${seed}.svg?mood[]=happy`}
         title="Youssef"
         bg="https://filmdaily.co/wp-content/uploads/2020/07/dirty-lede-1300x731.jpg"
       />
       <Story
-        profilePic={`https://avatars.dicebear.com/api/human/${seed}.svg`}
+        profilePic={`https://avatars.dicebear.com/api/male/${seed}.svg`}
         title="Omran"
         bg="https://images-na.ssl-images-amazon.com/images/I/71fDHPTG2dL._RI_.jpg"
       />
       <Story
-        profilePic={`https://avatars.dicebear.com/api/human/${seed}.svg`}
+        profilePic={`https://avatars.dicebear.com/api/female/${seed}.svg`}
         title="Gabrielle"
         bg="https://i.pinimg.com/564x/ca/9d/be/ca9dbe95ad377b153616f0d9a7de0711.jpg"
       />
       <Story
-        profilePic={`https://avatars.dicebear.com/api/human/${seed}.svg`}
+        profilePic={`https://avatars.dicebear.com/api/avataaars/${seed}.svg`}
         title="Mina"
         bg="https://images.theconversation.com/files/135250/original/image-20160824-30216-zdyfu.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip"
       />
